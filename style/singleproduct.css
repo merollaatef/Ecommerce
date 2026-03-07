@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Added for better text rendering */
+    color: #030314;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background-color: #e4f1f5;
+    padding: 15px 0;
+    border-bottom: 1px solid #5b5b5b;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #09095f;
+}
+
+.logo i {
+    color: #1212d9;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid rgb(38, 70, 215);
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 15px; /* Adjusted to match input height */
+    border: none;
+    background-color: rgb(38, 70, 215);
+    color: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #64e460;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons a {
+    color: #0d0d0d;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.icons .hearttt:hover {
+    color: red;
+}
+
+.icons .carttt:hover {
+    color: rgb(77, 76, 76);
+}
+
+.cart-badge {
+    background-color: #1212d9;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.product-container{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-image-container{
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 20px;
+    width: 200;
+    padding: 38px;
+}
+.product-info{
+    background-color: #ffffff;
+    padding: 30px 0;
+    border-bottom: 1px solid #000000;
+    border-radius: 23px;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: bold;
+}
+.product-info button{
+    padding: 10px 15px; 
+    border: none;
+    background-color: rgb(54, 122, 186);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-info button:hover {
+    background-color: #0e9114;
+}
+
+
+
+

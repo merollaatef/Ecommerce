@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="Style/cart.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fab fa-shopify"></i> Trend Trove
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search for Products...." > 
+                <button> <i class="fas fa-search"></i> </button>
+            </div>
+
+            <div class="icons">
+                <a href="#" class="hearttt"> <i class="fas fa-heart"> </i> </a>
+                <a href="cart.html" class="carttt"> <i class="fas fa-shopping-cart"></i> </a>
+                <span class="cart-badge"> 0 </span>
+
+            </div>
+
+
+        </div>
+
+    </header>
+    <section class="cart-section container">
+        <table id="cart-table">
+            <thead>
+            <tr>
+                <th> Image </th>
+                <th> Title </th>
+                <th> Price </th>
+                <th>Quantity</th>
+                <th> Subtotal </th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody id="cart-items">
+
+        </tbody>
+        </table>
+        <div id="cart-total">
+            <h3> Total : <span id="total"> 0 </span></h3>
+        </div>
+
+    </section>
+
+        <script src="JavaScript/cart.js"> </script>
+</body>
+</html>
